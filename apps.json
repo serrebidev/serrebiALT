@@ -5,6 +5,48 @@
   "description": "Vibe-coded, screen-reader-first iOS apps by serrebidev.",
   "website": "https://github.com/serrebidev/serrebiALT",
   "tintColor": "#2B6CB0",
-  "apps": [],
-  "news": []
+  "apps": [
+    {
+      "name": "Accessible IPTV",
+      "bundleIdentifier": "dev.serrebi.accessibleiptv",
+      "developerName": "serrebidev",
+      "subtitle": "IPTV player built for VoiceOver.",
+      "localizedDescription": "A screen-reader-friendly IPTV player for iPhone and iPad, with CarPlay audio. Xtream Codes logins, Stalker portals, M3U URLs and M3U files; Live TV, Movies and Series with groups, favourites and search, including voice search. XMLTV guide with On now, guide search and catch-up. The libVLC player plays raw MPEG-TS, HLS, MKV and MP4, picks audio description, remembers tracks per channel, reconnects dropped streams, casts to Chromecast and keeps playing with the screen locked. Record, schedule recordings and download. 14 languages.\n\nEvery list row is one VoiceOver stop with its extra choices in the Actions rotor; real, always-visible buttons; headings everywhere.",
+      "iconURL": "https://raw.githubusercontent.com/serrebidev/Accessible-IPTV-Client-iOS/main/docs/icon.png",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-10-14",
+          "localizedDescription": "First iOS release, a port of Accessible IPTV Client for Android 0.2.11: Xtream, Stalker and M3U; guide with catch-up; libVLC player that plays raw MPEG-TS; recordings; 14 languages. Built for VoiceOver.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.0/AccessibleIPTV-0.1.0-iOS.ipa",
+          "size": 21277836,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Finds Chromecast devices to cast to.",
+          "NSMicrophoneUsageDescription": "Voice search listens for a channel name.",
+          "NSSpeechRecognitionUsageDescription": "Voice search turns what you say into a search."
+        }
+      },
+      "tintColor": "#0B5394"
+    }
+  ],
+  "news": [
+    {
+      "title": "Accessible IPTV for iOS",
+      "identifier": "accessibleiptv-0.1.0",
+      "caption": "The VoiceOver-first IPTV player is here.",
+      "date": "2026-10-14",
+      "tintColor": "#0B5394",
+      "appID": "dev.serrebi.accessibleiptv",
+      "notify": true
+    }
+  ],
+  "iconURL": "https://raw.githubusercontent.com/serrebidev/Accessible-IPTV-Client-iOS/main/docs/icon.png"
 }
