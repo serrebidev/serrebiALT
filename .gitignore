@@ -1,0 +1,4 @@
+*.ipa
+__pycache__/
+.pytest_cache/
+AGENTS.local.md
