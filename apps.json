@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.2",
+          "buildVersion": "3",
+          "date": "2026-10-14",
+          "localizedDescription": "Search is much faster: a keystroke over 50,000 channels went from 0.16 s to 0.01 s. A fresh launch no longer hashes every channel on the main thread.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.2/AccessibleIPTV-0.1.2-iOS.ipa",
+          "size": 21285089,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.1",
           "buildVersion": "2",
           "date": "2026-10-14",
