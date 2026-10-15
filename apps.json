@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.3",
+          "buildVersion": "4",
+          "date": "2026-10-14",
+          "localizedDescription": "No more long freeze when the app opens, comes back into focus, or switches between Live TV, Movies and Series: the guide index and the group counts no longer run on the main thread.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.3/AccessibleIPTV-0.1.3-iOS.ipa",
+          "size": 21286105,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.2",
           "buildVersion": "3",
           "date": "2026-10-14",
