@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.5",
+          "buildVersion": "6",
+          "date": "2026-10-14",
+          "localizedDescription": "An audit of 0.1.4: search finds a name whose accented letter the feed writes as a separate mark, names of the same rank sort by length again, a refreshed playlist no longer leaves a channel on an old guide entry, and deleting the last playlist clears the list.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.5/AccessibleIPTV-0.1.5-iOS.ipa",
+          "size": 21285867,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.4",
           "buildVersion": "5",
           "date": "2026-10-14",
