@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.9",
+          "buildVersion": "10",
+          "date": "2026-10-14",
+          "localizedDescription": "A category opens in a fraction of a second again. The list was building a row for every entry in the category instead of only the rows on screen; it is now built 2,000 rows at a time, and where there are more the end of the list has a More button saying how many are left.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.9/AccessibleIPTV-0.1.9-iOS.ipa",
+          "size": 21298994,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.8",
           "buildVersion": "9",
           "date": "2026-10-14",
