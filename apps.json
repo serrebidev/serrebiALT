@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.6",
+          "buildVersion": "7",
+          "date": "2026-10-14",
+          "localizedDescription": "An audit of the player, the recorder, CarPlay and voice search: recording a channel twice in a minute no longer writes both to one file, casting no longer ends with a wrong error, CarPlay playback keeps its lock screen and steering wheel play and pause, and the Voice button no longer crashes when pressed twice.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.6/AccessibleIPTV-0.1.6-iOS.ipa",
+          "size": 21288242,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.5",
           "buildVersion": "6",
           "date": "2026-10-14",
