@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.8",
+          "buildVersion": "9",
+          "date": "2026-10-14",
+          "localizedDescription": "Measurement build for the slow category switch: when a category change or a list load takes over a second, the status line says what it cost. Also, the guide lookup a row makes is remembered for half a minute, so redrawing or scrolling does not repeat the same query for every row.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.8/AccessibleIPTV-0.1.8-iOS.ipa",
+          "size": 21291996,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.7",
           "buildVersion": "8",
           "date": "2026-10-14",
