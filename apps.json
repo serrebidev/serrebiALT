@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.4",
+          "buildVersion": "5",
+          "date": "2026-10-14",
+          "localizedDescription": "The category list on a phone is now a lazy list that opens from one button, so a provider with hundreds of categories is no longer slow to open or to redraw.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.4/AccessibleIPTV-0.1.4-iOS.ipa",
+          "size": 21285792,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.3",
           "buildVersion": "4",
           "date": "2026-10-14",
