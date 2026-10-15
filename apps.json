@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.7",
+          "buildVersion": "8",
+          "date": "2026-10-14",
+          "localizedDescription": "Choosing a category is much faster on a big account: the channel list is built fresh for the category you chose instead of working out the difference from the previous one, which took seconds with tens of thousands of channels. Rows no longer animate when a whole list is replaced.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.7/AccessibleIPTV-0.1.7-iOS.ipa",
+          "size": 21290224,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.6",
           "buildVersion": "7",
           "date": "2026-10-14",
