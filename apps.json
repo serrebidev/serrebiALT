@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.1",
+          "buildVersion": "2",
+          "date": "2026-10-14",
+          "localizedDescription": "Much less CPU while the guide imports: the guide reader is about 12 times faster and skips channels you do not have. Xtream movie and series lists load about twice as fast. The channel list no longer redraws on every status change; fewer background timers in the player and recorder.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.1/AccessibleIPTV-0.1.1-iOS.ipa",
+          "size": 21283831,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.0",
           "buildVersion": "1",
           "date": "2026-10-14",
