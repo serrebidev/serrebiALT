@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.2.0",
+          "buildVersion": "11",
+          "date": "2026-10-15",
+          "localizedDescription": "Native iPhone tabs and categories-first browsing. Persistent video miniplayer and native background and lock-screen playback. Siri and Shortcuts tune channels, read now and next, search the guide and control playback. SharePlay shares channel selection and playback through FaceTime using each participant’s own playlist/login; native coordination for seekable movies, episodes and catch-up. Live timing depends on provider buffers. Translated controls and help in 14 languages. SharePlay installation requires the Group Activities entitlement.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.2.0/AccessibleIPTV-0.2.0-iOS.ipa",
+          "size": 21582958,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.9",
           "buildVersion": "10",
           "date": "2026-10-14",
@@ -108,7 +117,9 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "com.apple.developer.group-session"
+        ],
         "privacy": {
           "NSLocalNetworkUsageDescription": "Finds Chromecast devices to cast to.",
           "NSMicrophoneUsageDescription": "Voice search listens for a channel name.",
