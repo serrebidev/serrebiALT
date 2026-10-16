@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.3.2",
+          "buildVersion": "14",
+          "date": "2026-10-15",
+          "localizedDescription": "Guide fixes: programme lists now load in windows with a More row, one channel guide has a filter and day headings, past programmes speak their date, loads announce their count, the Guide section has a channel picker, and guide search narrows as you type instead of rescanning.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.3.2/AccessibleIPTV-0.3.2-iOS.ipa",
+          "size": 21710417,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.3.1",
           "buildVersion": "13",
           "date": "2026-10-15",
