@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.0",
+          "buildVersion": "17",
+          "date": "2026-10-16",
+          "localizedDescription": "Spotlight: search live channels by name or number from the Home screen and pick a result to start watching. Shortcuts: Find Channels filters by name, group and number, with sorting, limits and the chosen channel returned for later actions. Siri and Apple Intelligence can discover indexed channels on iOS 18 or later. Channel matching now ignores provider punctuation, so \"sky mi\" finds Sky Mix. All 14 languages updated.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.0/AccessibleIPTV-0.4.0-iOS.ipa",
+          "size": 21792012,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.3.4",
           "buildVersion": "16",
           "date": "2026-10-16",
