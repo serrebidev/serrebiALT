@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.3.4",
+          "buildVersion": "16",
+          "date": "2026-10-16",
+          "localizedDescription": "Siri: Play, Tune to and Watch channels in Accessible IPTV. Clean spoken names ignore provider prefixes and quality labels. Favourites and recent channels refresh Siri vocabulary. Say Watch TV in Accessible IPTV to search any live channel when prompted. Help covers personal shortcuts for commands without the app name in all 14 languages.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.3.4/AccessibleIPTV-0.3.4-iOS.ipa",
+          "size": 21726285,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.3.2",
           "buildVersion": "14",
           "date": "2026-10-15",
