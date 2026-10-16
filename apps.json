@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.3.1",
+          "buildVersion": "13",
+          "date": "2026-10-15",
+          "localizedDescription": "Playback destination is now one list: This device, AirPlay device, and every Cast device labelled as a Cast device. The separate Prepare AirPlay video button is gone; picking an AirPlay device starts conversion automatically when the stream needs it. Converted video now keeps the source resolution instead of a 720p cap.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.3.1/AccessibleIPTV-0.3.1-iOS.ipa",
+          "size": 21682400,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.3.0",
           "buildVersion": "12",
           "date": "2026-10-15",
