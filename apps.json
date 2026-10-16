@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.1",
+          "buildVersion": "18",
+          "date": "2026-10-16",
+          "localizedDescription": "Siri and Apple Intelligence now get a written description of every channel, guide and search action, in all 14 languages, so requests match more reliably. More ways to ask with the app name: Watch, Play, Tune to, Put on and Start a channel, plus Watch live TV. Settings has a Siri and Shortcuts row that opens this app page in Shortcuts: Apple requires App Shortcut phrases to include the app name, and a shortcut of your own is the way to use a phrase without it.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.1/AccessibleIPTV-0.4.1-iOS.ipa",
+          "size": 21797064,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.0",
           "buildVersion": "17",
           "date": "2026-10-16",
