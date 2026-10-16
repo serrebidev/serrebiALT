@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.3.0",
+          "buildVersion": "12",
+          "date": "2026-10-15",
+          "localizedDescription": "AVPlayer now handles compatible HLS, MP4 and other native media, with VLCKit fallback for unsupported formats and failures. On iPhone and iPad, Prepare AirPlay video converts other IPTV video on the device to H.264/AAC HLS (up to 720p30) for AirPlay, and the playback destination uses the same conversion for Chromecast. No separate server is required. Choose audio and subtitles before casting and keep the app open on the receiver Wi-Fi. Protected streams, unavailable encoders and device performance can prevent conversion; local playback remains available.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.3.0/AccessibleIPTV-0.3.0-iOS.ipa",
+          "size": 21676294,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.2.0",
           "buildVersion": "11",
           "date": "2026-10-15",
@@ -121,7 +130,7 @@
           "com.apple.developer.group-session"
         ],
         "privacy": {
-          "NSLocalNetworkUsageDescription": "Finds Chromecast devices to cast to.",
+          "NSLocalNetworkUsageDescription": "Finds playback devices and shares converted video with them.",
           "NSMicrophoneUsageDescription": "Voice search listens for a channel name.",
           "NSSpeechRecognitionUsageDescription": "Voice search turns what you say into a search."
         }
