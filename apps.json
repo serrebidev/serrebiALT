@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.2",
+          "buildVersion": "19",
+          "date": "2026-10-16",
+          "localizedDescription": "Siri AI can play a channel now. \"Watch Sky Mix in Accessible IPTV\" used to answer that the app does not support playing content through Siri; the app now adopts Apple's audio playback schemas (live radio station entity and Play audio intent), so Siri plays the channel it found. Needs iOS 27 or later; iPhone and iPad on iOS 17 to 26 are unchanged. Shuffle, repeat and queue positions do not apply to a live channel and are ignored.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.2/AccessibleIPTV-0.4.2-iOS.ipa",
+          "size": 21845373,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.1",
           "buildVersion": "18",
           "date": "2026-10-16",
