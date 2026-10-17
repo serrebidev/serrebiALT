@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.5",
+          "buildVersion": "22",
+          "date": "2026-10-17",
+          "localizedDescription": "Stopping a stream could be reported as finished while VLC was still stopping, so the next channel, recording or conversion could start over the tail of the previous one. Playback teardown now waits until the stopped state has held briefly before anything else may use the connection.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.5/AccessibleIPTV-0.4.5-iOS.ipa",
+          "size": 21867955,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.4",
           "buildVersion": "21",
           "date": "2026-10-16",
