@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.4",
+          "buildVersion": "21",
+          "date": "2026-10-16",
+          "localizedDescription": "Playback, CarPlay, casting, recordings and downloads now share a single media connection, so a provider that allows only one session is no longer cut off. Starting a conflicting operation keeps the current stream running and announces that it must be stopped first. Channel changes and handoffs wait for the previous stream to close, and pausing or resuming while video conversion prepares no longer reopens it. Playlist, guide and account requests are unaffected.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.4/AccessibleIPTV-0.4.4-iOS.ipa",
+          "size": 21867988,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.3",
           "buildVersion": "20",
           "date": "2026-10-16",
