@@ -20,7 +20,7 @@
           "version": "0.4.3",
           "buildVersion": "20",
           "date": "2026-10-16",
-          "localizedDescription": "Siri can now play channels it could not find before. Channels are offered to Siri by their spoken name, \"Sky Mix\" instead of \"UK: Sky | Mix HD\", with the provider label and the channel number as alternate names; unnamed entries stay distinguishable by number or group. A channel whose spoken name matches exactly is chosen outright instead of competing with look-alikes such as Sky Sports 1 to 30. Needs iOS 27 or later.",
+          "localizedDescription": "Siri can now play channels it could not find before. Channels are offered to Siri by their spoken name, without provider prefixes or quality labels, with the provider label and the channel number as alternate names; unnamed entries stay distinguishable by number or group. A channel whose spoken name matches exactly is chosen outright instead of competing with similarly named channels. Needs iOS 27 or later.",
           "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.3/AccessibleIPTV-0.4.3-iOS.ipa",
           "size": 21847494,
           "minOSVersion": "17.0"
@@ -29,7 +29,7 @@
           "version": "0.4.2",
           "buildVersion": "19",
           "date": "2026-10-16",
-          "localizedDescription": "Siri AI can play a channel now. \"Watch Sky Mix in Accessible IPTV\" used to answer that the app does not support playing content through Siri; the app now adopts Apple's audio playback schemas (live radio station entity and Play audio intent), so Siri plays the channel it found. Needs iOS 27 or later; iPhone and iPad on iOS 17 to 26 are unchanged. Shuffle, repeat and queue positions do not apply to a live channel and are ignored.",
+          "localizedDescription": "Siri AI can play a channel now. Requests to watch a channel in Accessible IPTV used to answer that the app does not support playing content through Siri; the app now adopts Apple's audio playback schemas (live radio station entity and Play audio intent), so Siri plays the channel it found. Needs iOS 27 or later; iPhone and iPad on iOS 17 to 26 are unchanged. Shuffle, repeat and queue positions do not apply to a live channel and are ignored.",
           "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.2/AccessibleIPTV-0.4.2-iOS.ipa",
           "size": 21845373,
           "minOSVersion": "17.0"
@@ -47,7 +47,7 @@
           "version": "0.4.0",
           "buildVersion": "17",
           "date": "2026-10-16",
-          "localizedDescription": "Spotlight: search live channels by name or number from the Home screen and pick a result to start watching. Shortcuts: Find Channels filters by name, group and number, with sorting, limits and the chosen channel returned for later actions. Siri and Apple Intelligence can discover indexed channels on iOS 18 or later. Channel matching now ignores provider punctuation, so \"sky mi\" finds Sky Mix. All 14 languages updated.",
+          "localizedDescription": "Spotlight: search live channels by name or number from the Home screen and pick a result to start watching. Shortcuts: Find Channels filters by name, group and number, with sorting, limits and the chosen channel returned for later actions. Siri and Apple Intelligence can discover indexed channels on iOS 18 or later. Channel matching now ignores provider punctuation and supports partial names. All 14 languages updated.",
           "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.0/AccessibleIPTV-0.4.0-iOS.ipa",
           "size": 21792012,
           "minOSVersion": "17.0"
