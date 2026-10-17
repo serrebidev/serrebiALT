@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.3",
+          "buildVersion": "20",
+          "date": "2026-10-16",
+          "localizedDescription": "Siri can now play channels it could not find before. Channels are offered to Siri by their spoken name, \"Sky Mix\" instead of \"UK: Sky | Mix HD\", with the provider label and the channel number as alternate names; unnamed entries stay distinguishable by number or group. A channel whose spoken name matches exactly is chosen outright instead of competing with look-alikes such as Sky Sports 1 to 30. Needs iOS 27 or later.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.3/AccessibleIPTV-0.4.3-iOS.ipa",
+          "size": 21847494,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.2",
           "buildVersion": "19",
           "date": "2026-10-16",
