@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.6",
+          "buildVersion": "23",
+          "date": "2026-10-17",
+          "localizedDescription": "A live channel no longer plays 5% slow while it fills its buffer. Playback stays at normal speed from the first second, and the buffer grows only from what the server hands over ahead of real time. The half-second quick start, the full-cushion resume after a stall, the one-second growth per stall, and the saved buffer in Settings are unchanged. Same rule as the desktop app.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.6/AccessibleIPTV-0.4.6-iOS.ipa",
+          "size": 21866110,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.5",
           "buildVersion": "22",
           "date": "2026-10-17",
