@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.7",
+          "buildVersion": "24",
+          "date": "2026-10-17",
+          "localizedDescription": "Channels from a Dispatcharr restreamer keep the buffer you saved. It restreams from its own server-side buffer, so a stalled channel no longer grows the client buffer by a second and no longer waits for a bigger cushion before sound returns. Same rule as the desktop app.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.7/AccessibleIPTV-0.4.7-iOS.ipa",
+          "size": 21866264,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.6",
           "buildVersion": "23",
           "date": "2026-10-17",
