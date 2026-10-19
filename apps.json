@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.8",
+          "buildVersion": "25",
+          "date": "2026-10-19",
+          "localizedDescription": "Buffering now follows the desktop app: a reopened channel waits with the whole saved buffer, stalls reopen with a bigger buffer, dead channels are announced as Stream lost, and films and catch-up recover and resume instead of failing.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.8/AccessibleIPTV-0.4.8-iOS.ipa",
+          "size": 21874470,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.7",
           "buildVersion": "24",
           "date": "2026-10-17",
