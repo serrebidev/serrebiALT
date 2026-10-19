@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.10",
+          "buildVersion": "27",
+          "date": "2026-10-19",
+          "localizedDescription": "Fix repeated live-stream reconnects, correct buffering completion, allow the saved buffer to fill after a reconnect, and match Windows playback-health checks. Extensionless Xtream live streams now use VLC directly.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.10/AccessibleIPTV-0.4.10-iOS.ipa",
+          "size": 21883837,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.9",
           "buildVersion": "26",
           "date": "2026-10-19",
