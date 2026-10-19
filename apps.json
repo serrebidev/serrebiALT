@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.4.9",
+          "buildVersion": "26",
+          "date": "2026-10-19",
+          "localizedDescription": "Connecting, buffering and reconnecting fixes: pausing while connecting no longer claims the provider connection or reports it busy, buffering is announced while connecting, films resume where they stopped after a stall instead of skipping back, and CarPlay reconnects a dropped channel.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.9/AccessibleIPTV-0.4.9-iOS.ipa",
+          "size": 21878056,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.8",
           "buildVersion": "25",
           "date": "2026-10-19",
