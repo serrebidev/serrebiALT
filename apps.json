@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.1",
+          "buildVersion": "2",
+          "date": "2026-10-20",
+          "localizedDescription": "Fixes Miniflux sync never finishing on large accounts: uses the global entries endpoint, newest 2,000 entries in pages of 500, with progress announcements. Bare server addresses get https:// automatically. Sync failures are shown and announced. Lower CPU use in sync, refresh and adding feeds.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.1/BlindRSS-0.1.1-iOS.ipa",
+          "size": 799154,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.0",
           "buildVersion": "1",
           "date": "2026-10-20",
