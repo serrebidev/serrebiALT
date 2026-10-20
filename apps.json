@@ -262,6 +262,31 @@
         }
       },
       "tintColor": "#0B5394"
+    },
+    {
+      "name": "BlindRSS",
+      "bundleIdentifier": "org.serrebidev.BlindRSS",
+      "developerName": "serrebidev",
+      "subtitle": "RSS and podcast client built for VoiceOver.",
+      "localizedDescription": "A screen-reader-first RSS and podcast client for iPhone and iPad, ported from BlindRSS for desktop.\n\nSubscribe to RSS, Atom and JSON feeds, or use the combined Search Feeds and Podcasts: type a name to search Apple Podcasts and gPodder together, or paste a site URL to detect its feeds. Hosted accounts sync too: Miniflux, Inoreader, The Old Reader and BazQux. All, Unread, Read and Favorites views, Smart Folders, Filter Rules, Deleted Articles with restore, OPML import and export, full-text recovery, and per-feed error tracking.\n\nPodcasting is fully supported: Podcasting 2.0 chapters, resume playback, a persistent play queue that auto-advances, lock-screen controls, background audio, speed presets, sleep timer, auto-download, downloads with a five-band equalizer and silence skipping, and Wayback Podcast Archive recovery with batch download.\n\nEvery touch swipe action is duplicated as a VoiceOver action on the same row. Rotors jump by Headings, Unread, Favorites, With Audio and Chapters. Magic Tap plays and pauses anywhere, and refresh, download and playback changes are announced.",
+      "iconURL": "https://raw.githubusercontent.com/serrebidev/BlindRSS-iOS/main/docs/icon.png",
+      "category": "news",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-10-20",
+          "localizedDescription": "First iOS release. VoiceOver-first RSS and podcast client: combined Search Feeds and Podcasts (Apple Podcasts and gPodder by name, feed detection for pasted URLs), Podcasting 2.0 chapters, resume playback, persistent play queue, downloads with equalizer and silence skipping, hosted providers (Miniflux, Inoreader, The Old Reader, BazQux), Smart Folders, Filter Rules, and Wayback Podcast Archive.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.0/BlindRSS-0.1.0-iOS.ipa",
+          "size": 774426,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     }
   ],
   "news": [
