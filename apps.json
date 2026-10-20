@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.2",
+          "buildVersion": "3",
+          "date": "2026-10-20",
+          "localizedDescription": "Fixes high CPU use that 0.1.1 did not solve: feed list unread counts are built once per update instead of thousands of times, Refresh All syncs Miniflux and Google Reader feeds through the account instead of fetching every feed and duplicating articles, refresh saves in batches and only writes changed fields, and the main window no longer loads the whole library.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.2/BlindRSS-0.1.2-iOS.ipa",
+          "size": 803919,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.1",
           "buildVersion": "2",
           "date": "2026-10-20",
