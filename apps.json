@@ -286,7 +286,8 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      }
+      },
+      "tintColor": "#E8850C"
     }
   ],
   "news": [
