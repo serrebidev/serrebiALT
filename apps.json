@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.3",
+          "buildVersion": "4",
+          "date": "2026-10-20",
+          "localizedDescription": "Fixes feeds, Unread, All Articles and the other library views not opening on iPhone, and articles not opening in the reader. Choosing a different feed now starts with no article open.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.3/BlindRSS-0.1.3-iOS.ipa",
+          "size": 809919,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.2",
           "buildVersion": "3",
           "date": "2026-10-20",
