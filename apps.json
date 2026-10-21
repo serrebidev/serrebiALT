@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.7",
+          "buildVersion": "8",
+          "date": "2026-10-20",
+          "localizedDescription": "Feeds refresh automatically: Settings, Refresh automatically, from every 5 minutes to every day, quietly, and in the background when the app is closed. Refresh on startup now works. Podcasts keep playing when the screen locks. Article actions start with Open in Browser, Download Media, and Copy Link, and the order can be changed in Settings, Article Actions.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.7/BlindRSS-0.1.7-iOS.ipa",
+          "size": 988390,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.6",
           "buildVersion": "7",
           "date": "2026-10-20",
