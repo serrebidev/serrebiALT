@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.5.0",
+          "buildVersion": "28",
+          "date": "2026-10-21",
+          "localizedDescription": "Live channels reconnect in place after a provider drop. HLS through VLC follows the buffer setting. New engine (SwiftVLC): faster first channel and channel switching. Closed captions and teletext are shown and spoken. Needs iOS 18.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.5.0/AccessibleIPTV-0.5.0-iOS.ipa",
+          "size": 18489534,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.4.10",
           "buildVersion": "27",
           "date": "2026-10-19",

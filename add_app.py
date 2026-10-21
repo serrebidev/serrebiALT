@@ -17,7 +17,8 @@ from pathlib import Path
 SOURCE = Path(__file__).with_name("apps.json")
 REPO = "serrebidev/serrebiALT"
 IMPLICIT_ENTITLEMENTS = {"application-identifier", "com.apple.developer.team-identifier"}
-PLIST_RE = re.compile(rb"<\?xml.*?</plist>", re.S)
+# A blob never spans another XML header: large binaries carry stray "<?xml" strings.
+PLIST_RE = re.compile(rb"<\?xml(?:(?!<\?xml).)*?</plist>", re.S)
 
 
 def read_ipa(ipa):
