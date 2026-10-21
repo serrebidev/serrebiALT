@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.10",
+          "buildVersion": "11",
+          "date": "2026-10-20",
+          "localizedDescription": "On iPhone, Add Feed and More are now large buttons at the top of the feed list, before the Feeds heading, so VoiceOver reaches them first and they are easier to tap. More holds Refresh All and Settings.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.10/BlindRSS-0.1.10-iOS.ipa",
+          "size": 1028090,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.9",
           "buildVersion": "10",
           "date": "2026-10-20",
