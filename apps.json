@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.8",
+          "buildVersion": "9",
+          "date": "2026-10-20",
+          "localizedDescription": "Fixes article actions not following the chosen order. With VoiceOver on, rows now offer only their own actions, in the order from Settings, Article Actions: Open in Browser, Download Media, and Copy Link first by default. Duplicate actions are also gone from feeds, the play queue, deleted articles, smart folders, and filter rules.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.8/BlindRSS-0.1.8-iOS.ipa",
+          "size": 994308,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.7",
           "buildVersion": "8",
           "date": "2026-10-20",
