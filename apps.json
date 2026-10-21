@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.9",
+          "buildVersion": "10",
+          "date": "2026-10-20",
+          "localizedDescription": "The mini player now starts compact, one row high: title and time, Back, Play or Pause, and Forward. All player controls shows the full set; the choice is remembered. On iPad, articles and the player stay at a readable width, and YouTube videos fill the width at 16:9.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.9/BlindRSS-0.1.9-iOS.ipa",
+          "size": 1010768,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.8",
           "buildVersion": "9",
           "date": "2026-10-20",
