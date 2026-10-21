@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.11",
+          "buildVersion": "12",
+          "date": "2026-10-20",
+          "localizedDescription": "On iPhone, Add Feed and More now sit right at the top of the feed list, under the status bar. 0.1.10 left a blank band above them.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.11/BlindRSS-0.1.11-iOS.ipa",
+          "size": 1030669,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.10",
           "buildVersion": "11",
           "date": "2026-10-20",
