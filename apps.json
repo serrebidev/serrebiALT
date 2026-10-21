@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.6",
+          "buildVersion": "7",
+          "date": "2026-10-20",
+          "localizedDescription": "Fixes updating from AltStore (builds are now signed). The equalizer and Skip Silence now work on streamed episodes: the desktop's ten bands, preamp, built-in presets, and your saved presets, under More player controls, Equalizer. Skip Silence is on by default. Downloads play in the mini player.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.6/BlindRSS-0.1.6-iOS.ipa",
+          "size": 947931,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.5",
           "buildVersion": "6",
           "date": "2026-10-20",
