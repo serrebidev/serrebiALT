@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.4",
+          "buildVersion": "5",
+          "date": "2026-10-20",
+          "localizedDescription": "Fetch Full Text now works. It finds the article on the page instead of reading menus and footers, uses your Miniflux server first, works on sites that blocked the app and on non-UTF-8 pages, and says why when a site refuses. The reader shows each paragraph and heading as its own VoiceOver item, web punctuation reads correctly, and on iPad another article no longer keeps the previous full text.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.4/BlindRSS-0.1.4-iOS.ipa",
+          "size": 852445,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.3",
           "buildVersion": "4",
           "date": "2026-10-20",
