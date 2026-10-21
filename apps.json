@@ -274,6 +274,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.5",
+          "buildVersion": "6",
+          "date": "2026-10-20",
+          "localizedDescription": "The podcast player is now the mini player at the bottom of the screen, with every desktop player control: position, back and forward, Play or Pause, Stop, speed from 0.5x to 4x, chapters with next, previous, and chapter links, AirPlay, volume, play next and previous in queue, the play queue, and sleep timer. Double tapping an article with audio now plays it.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.5/BlindRSS-0.1.5-iOS.ipa",
+          "size": 869083,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.4",
           "buildVersion": "5",
           "date": "2026-10-20",
