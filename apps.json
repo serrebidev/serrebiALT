@@ -283,6 +283,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.17",
+          "buildVersion": "18",
+          "date": "2026-10-26",
+          "localizedDescription": "Apple Intelligence: on-device Summarize, Key Points, and Ask in the reader; Brief Me on unread articles; Siri and Shortcuts phrases; Siri onscreen awareness; Spotlight and visual intelligence search; Writing Tools; Apple on-device translation first. Needs iOS 26 on a supported device; older systems work as before.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.17/BlindRSS-0.1.17-iOS.ipa",
+          "size": 5748647,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.11",
           "buildVersion": "12",
           "date": "2026-10-20",
@@ -393,7 +402,9 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "BlindRSS uses the local network to find Chromecast and Google TV devices for Google Cast playback."
+        }
       },
       "tintColor": "#E8850C"
     }
