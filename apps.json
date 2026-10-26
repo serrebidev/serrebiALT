@@ -283,6 +283,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.18",
+          "buildVersion": "19",
+          "date": "2026-10-26",
+          "localizedDescription": "Video news pages get an on-device transcript as full text and become playable. iOS 27: Describe Images, Ask Your Library, Private Cloud Compute when Apple allows it, Siri search, richer Spotlight, long-running Siri refresh, Image Playground.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.18/BlindRSS-0.1.18-iOS.ipa",
+          "size": 5785496,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.17",
           "buildVersion": "18",
           "date": "2026-10-26",
@@ -403,7 +412,8 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {
-          "NSLocalNetworkUsageDescription": "BlindRSS uses the local network to find Chromecast and Google TV devices for Google Cast playback."
+          "NSLocalNetworkUsageDescription": "BlindRSS uses the local network to find Chromecast and Google TV devices for Google Cast playback.",
+          "NSSpeechRecognitionUsageDescription": "BlindRSS transcribes news videos on this device, so articles that are only a video can be read as text."
         }
       },
       "tintColor": "#E8850C"
