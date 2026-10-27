@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.6.6",
+          "buildVersion": "35",
+          "date": "2026-10-26",
+          "localizedDescription": "Channels start in a couple of seconds again. The new engine was waiting for a full 25 seconds of the channel to arrive before showing the first picture; live channels now join the fast way, starting on the first picture, and stream probing at open is capped so a slow source cannot stretch the wait.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.6.6/AccessibleIPTV-0.6.6-iOS.ipa",
+          "size": 27164330,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.6.5",
           "buildVersion": "34",
           "date": "2026-10-26",
