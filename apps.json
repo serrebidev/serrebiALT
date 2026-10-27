@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.6.1",
+          "buildVersion": "30",
+          "date": "2026-10-26",
+          "localizedDescription": "Settings, Copy playback log copies buffering, reconnect and player details since launch, for a problem report. Times in UTC; no stream addresses or logins. Not on Apple TV.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.6.1/AccessibleIPTV-0.6.1-iOS.ipa",
+          "size": 18498022,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.5.0",
           "buildVersion": "28",
           "date": "2026-10-21",
