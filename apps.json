@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.6.5",
+          "buildVersion": "34",
+          "date": "2026-10-26",
+          "localizedDescription": "Live transport-stream channels (like KCPQ) now play through a new engine, AetherEngine, that keeps the saved Buffer cushion on the live edge and rides out bursty sources where VLC kept rebuffering. If a channel fails on the new engine before its first picture, it falls back to VLC automatically. Subtitles and audio track choice still work.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.6.5/AccessibleIPTV-0.6.5-iOS.ipa",
+          "size": 27161444,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.6.1",
           "buildVersion": "30",
           "date": "2026-10-26",
