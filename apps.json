@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.7.2",
+          "buildVersion": "38",
+          "date": "2026-10-28",
+          "localizedDescription": "Picture in Picture now works, with controls in the PiP window itself. On channels Apple's player handles, leaving the app mid-channel pops the video into a floating window instead of dropping the picture; on transport-stream channels a Picture in Picture button in the player starts it, and it starts on its own when you leave the app while playing. The window's buttons pause, resume and skip, subtitles you turned on keep showing inside it, and its restore button brings back the full player. VLC-handled formats cannot float (no VLC version on iOS offers PiP) but their sound keeps playing in the background, like every other format.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.7.2/AccessibleIPTV-0.7.2-iOS.ipa",
+          "size": 27284144,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.7.1",
           "buildVersion": "37",
           "date": "2026-10-28",
