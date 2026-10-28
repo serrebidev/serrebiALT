@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.7.1",
+          "buildVersion": "37",
+          "date": "2026-10-28",
+          "localizedDescription": "Subtitles are off until you turn them on: new Enable subtitles switch in Settings (off on a fresh install), Speak subtitles off by default, and system caption preferences no longer switch subtitles on by themselves. On Apple's player, iOS 27 generated and translated subtitles appear in the Subtitles list once enabled, and a System subtitles button (iOS 26.4+) opens Apple's subtitle menu with caption style preview.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.7.1/AccessibleIPTV-0.7.1-iOS.ipa",
+          "size": 27277305,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.7.0",
           "buildVersion": "36",
           "date": "2026-10-27",
