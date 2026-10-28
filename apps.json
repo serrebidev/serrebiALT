@@ -328,6 +328,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.21",
+          "buildVersion": "22",
+          "date": "2026-10-28",
+          "localizedDescription": "Faster opening, especially with a large library. The feed list no longer walks every article of every feed to work out counts and categories, the article list fetches only the columns its rows use with article text loading per row, and the startup refresh waits a few seconds after launch so it no longer competes with the first screens.",
+          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.21/BlindRSS-0.1.21-iOS.ipa",
+          "size": 5808841,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.18",
           "buildVersion": "19",
           "date": "2026-10-26",
