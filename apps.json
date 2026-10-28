@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.7.0",
+          "buildVersion": "36",
+          "date": "2026-10-27",
+          "localizedDescription": "Siri and the guide: programmes are now Siri entities indexed in Spotlight, with record and remind intents (say \"Remind me about\" a programme), spoken guide answers built for listening, on-screen programme context, the iOS 27 in-app search schema, and an on-device Smart filter that turns plain words into guide filters. Also includes the fast AetherEngine live joins from 0.6.6.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.7.0/AccessibleIPTV-0.7.0-iOS.ipa",
+          "size": 27272448,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.6.6",
           "buildVersion": "35",
           "date": "2026-10-26",
