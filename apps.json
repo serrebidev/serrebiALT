@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.8.0",
+          "buildVersion": "39",
+          "date": "2026-11-03",
+          "localizedDescription": "Ask for almost anything: what is on later, record by channel or time, saved recordings, favourites, subtitles and audio tracks, sleep timer, listen with the phone locked, SharePlay, sharing. New actions in Shortcuts and new Siri phrases. iOS 27.3 Siri AI is prepared but not active in this build.",
+          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.8.0/AccessibleIPTV-0.8.0-iOS.ipa",
+          "size": 27507806,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.7.2",
           "buildVersion": "38",
           "date": "2026-10-28",
