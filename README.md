@@ -6,7 +6,7 @@ AltStore source for serrebidev's iOS apps.
 
 In AltStore, open Sources, tap Add, and paste:
 
-https://git.serrebiradio.com/serrebi/serrebiALT/raw/branch/main/apps.json
+https://altstore.serrebiradio.com/apps.json
 
 ## Publish an app version
 
