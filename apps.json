@@ -19,10 +19,10 @@
         {
           "version": "0.8.0",
           "buildVersion": "39",
-          "date": "2026-11-03",
-          "localizedDescription": "Ask for almost anything: what is on later, record by channel or time, saved recordings, favourites, subtitles and audio tracks, sleep timer, listen with the phone locked, SharePlay, sharing. New actions in Shortcuts and new Siri phrases. iOS 27.3 Siri AI is prepared but not active in this build.",
+          "date": "2026-11-09",
+          "localizedDescription": "Ask for almost anything: what is on later, record by channel or time, saved recordings, favourites, subtitles and audio tracks, sleep timer, listen with the phone locked, SharePlay, sharing. New actions in Shortcuts and new Siri phrases. On iOS 27.3, Siri AI can now call these actions from a natural request (new, still being tested).",
           "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.8.0/AccessibleIPTV-0.8.0-iOS.ipa",
-          "size": 27507806,
+          "size": 27510985,
           "minOSVersion": "18.0"
         },
         {
@@ -348,10 +348,10 @@
         {
           "version": "0.1.21",
           "buildVersion": "22",
-          "date": "2026-10-28",
+          "date": "2026-11-09",
           "localizedDescription": "Faster opening, especially with a large library. The feed list no longer walks every article of every feed to work out counts and categories, the article list fetches only the columns its rows use with article text loading per row, and the startup refresh waits a few seconds after launch so it no longer competes with the first screens.",
           "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.21/BlindRSS-0.1.21-iOS.ipa",
-          "size": 5808841,
+          "size": 5809889,
           "minOSVersion": "17.0"
         },
         {
