@@ -1,6 +1,6 @@
 # serrebiALT
 
-AltStore source (apps.json) for serrebidev iOS apps. Served from https://git.serrebiradio.com/serrebi/serrebiALT/raw/branch/main/apps.json. Forgejo is the source of truth for code, .ipa releases and issues; GitHub, if it returns, is a push mirror only. Never point apps.json or app URLs back at GitHub.
+AltStore source (apps.json) for serrebidev iOS apps. Served from https://altstore.serrebiradio.com/apps.json. That domain proxies the Forgejo raw file (deploy/nginx.conf, live at /etc/nginx/conf.d/altstore.serrebiradio.com.d/source.conf). Forgejo is the source of truth for code, .ipa releases and issues; GitHub, if it returns, is a push mirror only. Never point apps.json or app URLs back at GitHub.
 
 - Add a version: `python add_app.py App.ipa --notes "..."` (uploads to a release here via the Forgejo API; needs FORGEJO_TOKEN, the tea login token works) or with `--url` for an already hosted .ipa. Then commit + push apps.json.
 - Versions list is newest first; AltStore treats the first entry as latest. Re-adding an existing version replaces its entry (re-host after a rebuild).
