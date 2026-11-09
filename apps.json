@@ -3,7 +3,7 @@
   "identifier": "com.serrebidev.source",
   "subtitle": "Accessible apps by serrebidev",
   "description": "Vibe-coded, screen-reader-first iOS apps by serrebidev.",
-  "website": "https://github.com/serrebidev/serrebiALT",
+  "website": "https://git.serrebiradio.com/serrebi/serrebiALT",
   "tintColor": "#2B6CB0",
   "apps": [
     {
@@ -12,7 +12,7 @@
       "developerName": "serrebidev",
       "subtitle": "IPTV player built for VoiceOver.",
       "localizedDescription": "A screen-reader-friendly IPTV player for iPhone and iPad, with CarPlay audio. Xtream Codes logins, Stalker portals, M3U URLs and M3U files; Live TV, Movies and Series with groups, favourites and search, including voice search. XMLTV guide with On now, guide search and catch-up. The libVLC player plays raw MPEG-TS, HLS, MKV and MP4, picks audio description, remembers tracks per channel, reconnects dropped streams, casts to Chromecast and keeps playing with the screen locked. Record, schedule recordings and download. 14 languages.\n\nEvery list row is one VoiceOver stop with its extra choices in the Actions rotor; real, always-visible buttons; headings everywhere.",
-      "iconURL": "https://raw.githubusercontent.com/serrebidev/Accessible-IPTV-Client-iOS/main/docs/icon.png",
+      "iconURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/raw/branch/main/docs/icon.png",
       "category": "entertainment",
       "screenshots": [],
       "versions": [
@@ -21,7 +21,7 @@
           "buildVersion": "39",
           "date": "2026-11-03",
           "localizedDescription": "Ask for almost anything: what is on later, record by channel or time, saved recordings, favourites, subtitles and audio tracks, sleep timer, listen with the phone locked, SharePlay, sharing. New actions in Shortcuts and new Siri phrases. iOS 27.3 Siri AI is prepared but not active in this build.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.8.0/AccessibleIPTV-0.8.0-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.8.0/AccessibleIPTV-0.8.0-iOS.ipa",
           "size": 27507806,
           "minOSVersion": "18.0"
         },
@@ -30,7 +30,7 @@
           "buildVersion": "38",
           "date": "2026-10-28",
           "localizedDescription": "Picture in Picture now works, with controls in the PiP window itself. On channels Apple's player handles, leaving the app mid-channel pops the video into a floating window instead of dropping the picture; on transport-stream channels a Picture in Picture button in the player starts it, and it starts on its own when you leave the app while playing. The window's buttons pause, resume and skip, subtitles you turned on keep showing inside it, and its restore button brings back the full player. VLC-handled formats cannot float (no VLC version on iOS offers PiP) but their sound keeps playing in the background, like every other format.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.7.2/AccessibleIPTV-0.7.2-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.7.2/AccessibleIPTV-0.7.2-iOS.ipa",
           "size": 27284144,
           "minOSVersion": "18.0"
         },
@@ -39,7 +39,7 @@
           "buildVersion": "37",
           "date": "2026-10-28",
           "localizedDescription": "Subtitles are off until you turn them on: new Enable subtitles switch in Settings (off on a fresh install), Speak subtitles off by default, and system caption preferences no longer switch subtitles on by themselves. On Apple's player, iOS 27 generated and translated subtitles appear in the Subtitles list once enabled, and a System subtitles button (iOS 26.4+) opens Apple's subtitle menu with caption style preview.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.7.1/AccessibleIPTV-0.7.1-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.7.1/AccessibleIPTV-0.7.1-iOS.ipa",
           "size": 27277305,
           "minOSVersion": "18.0"
         },
@@ -48,7 +48,7 @@
           "buildVersion": "36",
           "date": "2026-10-27",
           "localizedDescription": "Siri and the guide: programmes are now Siri entities indexed in Spotlight, with record and remind intents (say \"Remind me about\" a programme), spoken guide answers built for listening, on-screen programme context, the iOS 27 in-app search schema, and an on-device Smart filter that turns plain words into guide filters. Also includes the fast AetherEngine live joins from 0.6.6.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.7.0/AccessibleIPTV-0.7.0-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.7.0/AccessibleIPTV-0.7.0-iOS.ipa",
           "size": 27272448,
           "minOSVersion": "18.0"
         },
@@ -57,7 +57,7 @@
           "buildVersion": "35",
           "date": "2026-10-26",
           "localizedDescription": "Channels start in a couple of seconds again. The new engine was waiting for a full 25 seconds of the channel to arrive before showing the first picture; live channels now join the fast way, starting on the first picture, and stream probing at open is capped so a slow source cannot stretch the wait.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.6.6/AccessibleIPTV-0.6.6-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.6.6/AccessibleIPTV-0.6.6-iOS.ipa",
           "size": 27164330,
           "minOSVersion": "18.0"
         },
@@ -66,7 +66,7 @@
           "buildVersion": "34",
           "date": "2026-10-26",
           "localizedDescription": "Live transport-stream channels (like KCPQ) now play through a new engine, AetherEngine, that keeps the saved Buffer cushion on the live edge and rides out bursty sources where VLC kept rebuffering. If a channel fails on the new engine before its first picture, it falls back to VLC automatically. Subtitles and audio track choice still work.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.6.5/AccessibleIPTV-0.6.5-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.6.5/AccessibleIPTV-0.6.5-iOS.ipa",
           "size": 27161444,
           "minOSVersion": "18.0"
         },
@@ -75,7 +75,7 @@
           "buildVersion": "30",
           "date": "2026-10-26",
           "localizedDescription": "Settings, Copy playback log copies buffering, reconnect and player details since launch, for a problem report. Times in UTC; no stream addresses or logins. Not on Apple TV.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.6.1/AccessibleIPTV-0.6.1-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.6.1/AccessibleIPTV-0.6.1-iOS.ipa",
           "size": 18498022,
           "minOSVersion": "18.0"
         },
@@ -84,7 +84,7 @@
           "buildVersion": "28",
           "date": "2026-10-21",
           "localizedDescription": "Live channels reconnect in place after a provider drop. HLS through VLC follows the buffer setting. New engine (SwiftVLC): faster first channel and channel switching. Closed captions and teletext are shown and spoken. Needs iOS 18.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.5.0/AccessibleIPTV-0.5.0-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.5.0/AccessibleIPTV-0.5.0-iOS.ipa",
           "size": 18489534,
           "minOSVersion": "18.0"
         },
@@ -93,7 +93,7 @@
           "buildVersion": "27",
           "date": "2026-10-19",
           "localizedDescription": "Fix repeated live-stream reconnects, correct buffering completion, allow the saved buffer to fill after a reconnect, and match Windows playback-health checks. Extensionless Xtream live streams now use VLC directly.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.10/AccessibleIPTV-0.4.10-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.10/AccessibleIPTV-0.4.10-iOS.ipa",
           "size": 21883837,
           "minOSVersion": "17.0"
         },
@@ -102,7 +102,7 @@
           "buildVersion": "26",
           "date": "2026-10-19",
           "localizedDescription": "Connecting, buffering and reconnecting fixes: pausing while connecting no longer claims the provider connection or reports it busy, buffering is announced while connecting, films resume where they stopped after a stall instead of skipping back, and CarPlay reconnects a dropped channel.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.9/AccessibleIPTV-0.4.9-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.9/AccessibleIPTV-0.4.9-iOS.ipa",
           "size": 21878056,
           "minOSVersion": "17.0"
         },
@@ -111,7 +111,7 @@
           "buildVersion": "25",
           "date": "2026-10-19",
           "localizedDescription": "Buffering now follows the desktop app: a reopened channel waits with the whole saved buffer, stalls reopen with a bigger buffer, dead channels are announced as Stream lost, and films and catch-up recover and resume instead of failing.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.8/AccessibleIPTV-0.4.8-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.8/AccessibleIPTV-0.4.8-iOS.ipa",
           "size": 21874470,
           "minOSVersion": "17.0"
         },
@@ -120,7 +120,7 @@
           "buildVersion": "24",
           "date": "2026-10-17",
           "localizedDescription": "Channels from a Dispatcharr restreamer keep the buffer you saved. It restreams from its own server-side buffer, so a stalled channel no longer grows the client buffer by a second and no longer waits for a bigger cushion before sound returns. Same rule as the desktop app.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.7/AccessibleIPTV-0.4.7-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.7/AccessibleIPTV-0.4.7-iOS.ipa",
           "size": 21866264,
           "minOSVersion": "17.0"
         },
@@ -129,7 +129,7 @@
           "buildVersion": "23",
           "date": "2026-10-17",
           "localizedDescription": "A live channel no longer plays 5% slow while it fills its buffer. Playback stays at normal speed from the first second, and the buffer grows only from what the server hands over ahead of real time. The half-second quick start, the full-cushion resume after a stall, the one-second growth per stall, and the saved buffer in Settings are unchanged. Same rule as the desktop app.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.6/AccessibleIPTV-0.4.6-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.6/AccessibleIPTV-0.4.6-iOS.ipa",
           "size": 21866110,
           "minOSVersion": "17.0"
         },
@@ -138,7 +138,7 @@
           "buildVersion": "22",
           "date": "2026-10-17",
           "localizedDescription": "Stopping a stream could be reported as finished while VLC was still stopping, so the next channel, recording or conversion could start over the tail of the previous one. Playback teardown now waits until the stopped state has held briefly before anything else may use the connection.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.5/AccessibleIPTV-0.4.5-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.5/AccessibleIPTV-0.4.5-iOS.ipa",
           "size": 21867955,
           "minOSVersion": "17.0"
         },
@@ -147,7 +147,7 @@
           "buildVersion": "21",
           "date": "2026-10-16",
           "localizedDescription": "Playback, CarPlay, casting, recordings and downloads now share a single media connection, so a provider that allows only one session is no longer cut off. Starting a conflicting operation keeps the current stream running and announces that it must be stopped first. Channel changes and handoffs wait for the previous stream to close, and pausing or resuming while video conversion prepares no longer reopens it. Playlist, guide and account requests are unaffected.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.4/AccessibleIPTV-0.4.4-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.4/AccessibleIPTV-0.4.4-iOS.ipa",
           "size": 21867988,
           "minOSVersion": "17.0"
         },
@@ -156,7 +156,7 @@
           "buildVersion": "20",
           "date": "2026-10-16",
           "localizedDescription": "Siri can now play channels it could not find before. Channels are offered to Siri by their spoken name, without provider prefixes or quality labels, with the provider label and the channel number as alternate names; unnamed entries stay distinguishable by number or group. A channel whose spoken name matches exactly is chosen outright instead of competing with similarly named channels. Needs iOS 27 or later.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.3/AccessibleIPTV-0.4.3-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.3/AccessibleIPTV-0.4.3-iOS.ipa",
           "size": 21847494,
           "minOSVersion": "17.0"
         },
@@ -165,7 +165,7 @@
           "buildVersion": "19",
           "date": "2026-10-16",
           "localizedDescription": "Siri AI can play a channel now. Requests to watch a channel in Accessible IPTV used to answer that the app does not support playing content through Siri; the app now adopts Apple's audio playback schemas (live radio station entity and Play audio intent), so Siri plays the channel it found. Needs iOS 27 or later; iPhone and iPad on iOS 17 to 26 are unchanged. Shuffle, repeat and queue positions do not apply to a live channel and are ignored.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.2/AccessibleIPTV-0.4.2-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.2/AccessibleIPTV-0.4.2-iOS.ipa",
           "size": 21845373,
           "minOSVersion": "17.0"
         },
@@ -174,7 +174,7 @@
           "buildVersion": "18",
           "date": "2026-10-16",
           "localizedDescription": "Siri and Apple Intelligence now get a written description of every channel, guide and search action, in all 14 languages, so requests match more reliably. More ways to ask with the app name: Watch, Play, Tune to, Put on and Start a channel, plus Watch live TV. Settings has a Siri and Shortcuts row that opens this app page in Shortcuts: Apple requires App Shortcut phrases to include the app name, and a shortcut of your own is the way to use a phrase without it.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.1/AccessibleIPTV-0.4.1-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.1/AccessibleIPTV-0.4.1-iOS.ipa",
           "size": 21797064,
           "minOSVersion": "17.0"
         },
@@ -183,7 +183,7 @@
           "buildVersion": "17",
           "date": "2026-10-16",
           "localizedDescription": "Spotlight: search live channels by name or number from the Home screen and pick a result to start watching. Shortcuts: Find Channels filters by name, group and number, with sorting, limits and the chosen channel returned for later actions. Siri and Apple Intelligence can discover indexed channels on iOS 18 or later. Channel matching now ignores provider punctuation and supports partial names. All 14 languages updated.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.4.0/AccessibleIPTV-0.4.0-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.4.0/AccessibleIPTV-0.4.0-iOS.ipa",
           "size": 21792012,
           "minOSVersion": "17.0"
         },
@@ -192,7 +192,7 @@
           "buildVersion": "16",
           "date": "2026-10-16",
           "localizedDescription": "Siri: Play, Tune to and Watch channels in Accessible IPTV. Clean spoken names ignore provider prefixes and quality labels. Favourites and recent channels refresh Siri vocabulary. Say Watch TV in Accessible IPTV to search any live channel when prompted. Help covers personal shortcuts for commands without the app name in all 14 languages.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.3.4/AccessibleIPTV-0.3.4-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.3.4/AccessibleIPTV-0.3.4-iOS.ipa",
           "size": 21726285,
           "minOSVersion": "17.0"
         },
@@ -201,7 +201,7 @@
           "buildVersion": "14",
           "date": "2026-10-15",
           "localizedDescription": "Guide fixes: programme lists now load in windows with a More row, one channel guide has a filter and day headings, past programmes speak their date, loads announce their count, the Guide section has a channel picker, and guide search narrows as you type instead of rescanning.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.3.2/AccessibleIPTV-0.3.2-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.3.2/AccessibleIPTV-0.3.2-iOS.ipa",
           "size": 21710417,
           "minOSVersion": "17.0"
         },
@@ -210,7 +210,7 @@
           "buildVersion": "13",
           "date": "2026-10-15",
           "localizedDescription": "Playback destination is now one list: This device, AirPlay device, and every Cast device labelled as a Cast device. The separate Prepare AirPlay video button is gone; picking an AirPlay device starts conversion automatically when the stream needs it. Converted video now keeps the source resolution instead of a 720p cap.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.3.1/AccessibleIPTV-0.3.1-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.3.1/AccessibleIPTV-0.3.1-iOS.ipa",
           "size": 21682400,
           "minOSVersion": "17.0"
         },
@@ -219,7 +219,7 @@
           "buildVersion": "12",
           "date": "2026-10-15",
           "localizedDescription": "AVPlayer now handles compatible HLS, MP4 and other native media, with VLCKit fallback for unsupported formats and failures. On iPhone and iPad, Prepare AirPlay video converts other IPTV video on the device to H.264/AAC HLS (up to 720p30) for AirPlay, and the playback destination uses the same conversion for Chromecast. No separate server is required. Choose audio and subtitles before casting and keep the app open on the receiver Wi-Fi. Protected streams, unavailable encoders and device performance can prevent conversion; local playback remains available.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.3.0/AccessibleIPTV-0.3.0-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.3.0/AccessibleIPTV-0.3.0-iOS.ipa",
           "size": 21676294,
           "minOSVersion": "17.0"
         },
@@ -228,7 +228,7 @@
           "buildVersion": "11",
           "date": "2026-10-15",
           "localizedDescription": "Native iPhone tabs and categories-first browsing. Persistent video miniplayer and native background and lock-screen playback. Siri and Shortcuts tune channels, read now and next, search the guide and control playback. SharePlay shares channel selection and playback through FaceTime using each participant’s own playlist/login; native coordination for seekable movies, episodes and catch-up. Live timing depends on provider buffers. Translated controls and help in 14 languages. SharePlay installation requires the Group Activities entitlement.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.2.0/AccessibleIPTV-0.2.0-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.2.0/AccessibleIPTV-0.2.0-iOS.ipa",
           "size": 21582958,
           "minOSVersion": "17.0"
         },
@@ -237,7 +237,7 @@
           "buildVersion": "10",
           "date": "2026-10-14",
           "localizedDescription": "A category opens in a fraction of a second again. The list was building a row for every entry in the category instead of only the rows on screen; it is now built 2,000 rows at a time, and where there are more the end of the list has a More button saying how many are left.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.9/AccessibleIPTV-0.1.9-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.1.9/AccessibleIPTV-0.1.9-iOS.ipa",
           "size": 21298994,
           "minOSVersion": "17.0"
         },
@@ -246,7 +246,7 @@
           "buildVersion": "9",
           "date": "2026-10-14",
           "localizedDescription": "Measurement build for the slow category switch: when a category change or a list load takes over a second, the status line says what it cost. Also, the guide lookup a row makes is remembered for half a minute, so redrawing or scrolling does not repeat the same query for every row.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.8/AccessibleIPTV-0.1.8-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.1.8/AccessibleIPTV-0.1.8-iOS.ipa",
           "size": 21291996,
           "minOSVersion": "17.0"
         },
@@ -255,7 +255,7 @@
           "buildVersion": "8",
           "date": "2026-10-14",
           "localizedDescription": "Choosing a category is much faster on a big account: the channel list is built fresh for the category you chose instead of working out the difference from the previous one, which took seconds with tens of thousands of channels. Rows no longer animate when a whole list is replaced.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.7/AccessibleIPTV-0.1.7-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.1.7/AccessibleIPTV-0.1.7-iOS.ipa",
           "size": 21290224,
           "minOSVersion": "17.0"
         },
@@ -264,7 +264,7 @@
           "buildVersion": "7",
           "date": "2026-10-14",
           "localizedDescription": "An audit of the player, the recorder, CarPlay and voice search: recording a channel twice in a minute no longer writes both to one file, casting no longer ends with a wrong error, CarPlay playback keeps its lock screen and steering wheel play and pause, and the Voice button no longer crashes when pressed twice.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.6/AccessibleIPTV-0.1.6-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.1.6/AccessibleIPTV-0.1.6-iOS.ipa",
           "size": 21288242,
           "minOSVersion": "17.0"
         },
@@ -273,7 +273,7 @@
           "buildVersion": "6",
           "date": "2026-10-14",
           "localizedDescription": "An audit of 0.1.4: search finds a name whose accented letter the feed writes as a separate mark, names of the same rank sort by length again, a refreshed playlist no longer leaves a channel on an old guide entry, and deleting the last playlist clears the list.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.5/AccessibleIPTV-0.1.5-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.1.5/AccessibleIPTV-0.1.5-iOS.ipa",
           "size": 21285867,
           "minOSVersion": "17.0"
         },
@@ -282,7 +282,7 @@
           "buildVersion": "5",
           "date": "2026-10-14",
           "localizedDescription": "The category list on a phone is now a lazy list that opens from one button, so a provider with hundreds of categories is no longer slow to open or to redraw.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.4/AccessibleIPTV-0.1.4-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.1.4/AccessibleIPTV-0.1.4-iOS.ipa",
           "size": 21285792,
           "minOSVersion": "17.0"
         },
@@ -291,7 +291,7 @@
           "buildVersion": "4",
           "date": "2026-10-14",
           "localizedDescription": "No more long freeze when the app opens, comes back into focus, or switches between Live TV, Movies and Series: the guide index and the group counts no longer run on the main thread.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.3/AccessibleIPTV-0.1.3-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.1.3/AccessibleIPTV-0.1.3-iOS.ipa",
           "size": 21286105,
           "minOSVersion": "17.0"
         },
@@ -300,7 +300,7 @@
           "buildVersion": "3",
           "date": "2026-10-14",
           "localizedDescription": "Search is much faster: a keystroke over 50,000 channels went from 0.16 s to 0.01 s. A fresh launch no longer hashes every channel on the main thread.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.2/AccessibleIPTV-0.1.2-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.1.2/AccessibleIPTV-0.1.2-iOS.ipa",
           "size": 21285089,
           "minOSVersion": "17.0"
         },
@@ -309,7 +309,7 @@
           "buildVersion": "2",
           "date": "2026-10-14",
           "localizedDescription": "Much less CPU while the guide imports: the guide reader is about 12 times faster and skips channels you do not have. Xtream movie and series lists load about twice as fast. The channel list no longer redraws on every status change; fewer background timers in the player and recorder.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.1/AccessibleIPTV-0.1.1-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.1.1/AccessibleIPTV-0.1.1-iOS.ipa",
           "size": 21283831,
           "minOSVersion": "17.0"
         },
@@ -318,7 +318,7 @@
           "buildVersion": "1",
           "date": "2026-10-14",
           "localizedDescription": "First iOS release, a port of Accessible IPTV Client for Android 0.2.11: Xtream, Stalker and M3U; guide with catch-up; libVLC player that plays raw MPEG-TS; recordings; 14 languages. Built for VoiceOver.",
-          "downloadURL": "https://github.com/serrebidev/Accessible-IPTV-Client-iOS/releases/download/v0.1.0/AccessibleIPTV-0.1.0-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.1.0/AccessibleIPTV-0.1.0-iOS.ipa",
           "size": 21277836,
           "minOSVersion": "17.0"
         }
@@ -341,7 +341,7 @@
       "developerName": "serrebidev",
       "subtitle": "RSS and podcast client built for VoiceOver.",
       "localizedDescription": "A screen-reader-first RSS and podcast client for iPhone and iPad, ported from BlindRSS for desktop.\n\nSubscribe to RSS, Atom and JSON feeds, or use the combined Search Feeds and Podcasts: type a name to search Apple Podcasts and gPodder together, or paste a site URL to detect its feeds. Hosted accounts sync too: Miniflux, Inoreader, The Old Reader and BazQux. All, Unread, Read and Favorites views, Smart Folders, Filter Rules, Deleted Articles with restore, OPML import and export, full-text recovery, and per-feed error tracking.\n\nPodcasting is fully supported: Podcasting 2.0 chapters, resume playback, a persistent play queue that auto-advances, lock-screen controls, background audio, speed presets, sleep timer, auto-download, downloads with a five-band equalizer and silence skipping, and Wayback Podcast Archive recovery with batch download.\n\nEvery touch swipe action is duplicated as a VoiceOver action on the same row. Rotors jump by Headings, Unread, Favorites, With Audio and Chapters. Magic Tap plays and pauses anywhere, and refresh, download and playback changes are announced.",
-      "iconURL": "https://raw.githubusercontent.com/serrebidev/BlindRSS-iOS/main/docs/icon.png",
+      "iconURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/raw/branch/main/docs/icon.png",
       "category": "news",
       "screenshots": [],
       "versions": [
@@ -350,7 +350,7 @@
           "buildVersion": "22",
           "date": "2026-10-28",
           "localizedDescription": "Faster opening, especially with a large library. The feed list no longer walks every article of every feed to work out counts and categories, the article list fetches only the columns its rows use with article text loading per row, and the startup refresh waits a few seconds after launch so it no longer competes with the first screens.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.21/BlindRSS-0.1.21-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.21/BlindRSS-0.1.21-iOS.ipa",
           "size": 5808841,
           "minOSVersion": "17.0"
         },
@@ -359,7 +359,7 @@
           "buildVersion": "19",
           "date": "2026-10-26",
           "localizedDescription": "Video news pages get an on-device transcript as full text and become playable. iOS 27: Describe Images, Ask Your Library, Private Cloud Compute when Apple allows it, Siri search, richer Spotlight, long-running Siri refresh, Image Playground.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.18/BlindRSS-0.1.18-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.18/BlindRSS-0.1.18-iOS.ipa",
           "size": 5785496,
           "minOSVersion": "17.0"
         },
@@ -368,7 +368,7 @@
           "buildVersion": "18",
           "date": "2026-10-26",
           "localizedDescription": "Apple Intelligence: on-device Summarize, Key Points, and Ask in the reader; Brief Me on unread articles; Siri and Shortcuts phrases; Siri onscreen awareness; Spotlight and visual intelligence search; Writing Tools; Apple on-device translation first. Needs iOS 26 on a supported device; older systems work as before.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.17/BlindRSS-0.1.17-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.17/BlindRSS-0.1.17-iOS.ipa",
           "size": 5748647,
           "minOSVersion": "17.0"
         },
@@ -377,7 +377,7 @@
           "buildVersion": "12",
           "date": "2026-10-20",
           "localizedDescription": "On iPhone, Add Feed and More now sit right at the top of the feed list, under the status bar. 0.1.10 left a blank band above them.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.11/BlindRSS-0.1.11-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.11/BlindRSS-0.1.11-iOS.ipa",
           "size": 1030669,
           "minOSVersion": "17.0"
         },
@@ -386,7 +386,7 @@
           "buildVersion": "11",
           "date": "2026-10-20",
           "localizedDescription": "On iPhone, Add Feed and More are now large buttons at the top of the feed list, before the Feeds heading, so VoiceOver reaches them first and they are easier to tap. More holds Refresh All and Settings.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.10/BlindRSS-0.1.10-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.10/BlindRSS-0.1.10-iOS.ipa",
           "size": 1028090,
           "minOSVersion": "17.0"
         },
@@ -395,7 +395,7 @@
           "buildVersion": "10",
           "date": "2026-10-20",
           "localizedDescription": "The mini player now starts compact, one row high: title and time, Back, Play or Pause, and Forward. All player controls shows the full set; the choice is remembered. On iPad, articles and the player stay at a readable width, and YouTube videos fill the width at 16:9.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.9/BlindRSS-0.1.9-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.9/BlindRSS-0.1.9-iOS.ipa",
           "size": 1010768,
           "minOSVersion": "17.0"
         },
@@ -404,7 +404,7 @@
           "buildVersion": "9",
           "date": "2026-10-20",
           "localizedDescription": "Fixes article actions not following the chosen order. With VoiceOver on, rows now offer only their own actions, in the order from Settings, Article Actions: Open in Browser, Download Media, and Copy Link first by default. Duplicate actions are also gone from feeds, the play queue, deleted articles, smart folders, and filter rules.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.8/BlindRSS-0.1.8-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.8/BlindRSS-0.1.8-iOS.ipa",
           "size": 994308,
           "minOSVersion": "17.0"
         },
@@ -413,7 +413,7 @@
           "buildVersion": "8",
           "date": "2026-10-20",
           "localizedDescription": "Feeds refresh automatically: Settings, Refresh automatically, from every 5 minutes to every day, quietly, and in the background when the app is closed. Refresh on startup now works. Podcasts keep playing when the screen locks. Article actions start with Open in Browser, Download Media, and Copy Link, and the order can be changed in Settings, Article Actions.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.7/BlindRSS-0.1.7-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.7/BlindRSS-0.1.7-iOS.ipa",
           "size": 988390,
           "minOSVersion": "17.0"
         },
@@ -422,7 +422,7 @@
           "buildVersion": "7",
           "date": "2026-10-20",
           "localizedDescription": "Fixes updating from AltStore (builds are now signed). The equalizer and Skip Silence now work on streamed episodes: the desktop's ten bands, preamp, built-in presets, and your saved presets, under More player controls, Equalizer. Skip Silence is on by default. Downloads play in the mini player.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.6/BlindRSS-0.1.6-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.6/BlindRSS-0.1.6-iOS.ipa",
           "size": 947931,
           "minOSVersion": "17.0"
         },
@@ -431,7 +431,7 @@
           "buildVersion": "6",
           "date": "2026-10-20",
           "localizedDescription": "The podcast player is now the mini player at the bottom of the screen, with every desktop player control: position, back and forward, Play or Pause, Stop, speed from 0.5x to 4x, chapters with next, previous, and chapter links, AirPlay, volume, play next and previous in queue, the play queue, and sleep timer. Double tapping an article with audio now plays it.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.5/BlindRSS-0.1.5-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.5/BlindRSS-0.1.5-iOS.ipa",
           "size": 869083,
           "minOSVersion": "17.0"
         },
@@ -440,7 +440,7 @@
           "buildVersion": "5",
           "date": "2026-10-20",
           "localizedDescription": "Fetch Full Text now works. It finds the article on the page instead of reading menus and footers, uses your Miniflux server first, works on sites that blocked the app and on non-UTF-8 pages, and says why when a site refuses. The reader shows each paragraph and heading as its own VoiceOver item, web punctuation reads correctly, and on iPad another article no longer keeps the previous full text.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.4/BlindRSS-0.1.4-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.4/BlindRSS-0.1.4-iOS.ipa",
           "size": 852445,
           "minOSVersion": "17.0"
         },
@@ -449,7 +449,7 @@
           "buildVersion": "4",
           "date": "2026-10-20",
           "localizedDescription": "Fixes feeds, Unread, All Articles and the other library views not opening on iPhone, and articles not opening in the reader. Choosing a different feed now starts with no article open.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.3/BlindRSS-0.1.3-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.3/BlindRSS-0.1.3-iOS.ipa",
           "size": 809919,
           "minOSVersion": "17.0"
         },
@@ -458,7 +458,7 @@
           "buildVersion": "3",
           "date": "2026-10-20",
           "localizedDescription": "Fixes high CPU use that 0.1.1 did not solve: feed list unread counts are built once per update instead of thousands of times, Refresh All syncs Miniflux and Google Reader feeds through the account instead of fetching every feed and duplicating articles, refresh saves in batches and only writes changed fields, and the main window no longer loads the whole library.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.2/BlindRSS-0.1.2-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.2/BlindRSS-0.1.2-iOS.ipa",
           "size": 803919,
           "minOSVersion": "17.0"
         },
@@ -467,7 +467,7 @@
           "buildVersion": "2",
           "date": "2026-10-20",
           "localizedDescription": "Fixes Miniflux sync never finishing on large accounts: uses the global entries endpoint, newest 2,000 entries in pages of 500, with progress announcements. Bare server addresses get https:// automatically. Sync failures are shown and announced. Lower CPU use in sync, refresh and adding feeds.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.1/BlindRSS-0.1.1-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.1/BlindRSS-0.1.1-iOS.ipa",
           "size": 799154,
           "minOSVersion": "17.0"
         },
@@ -476,7 +476,7 @@
           "buildVersion": "1",
           "date": "2026-10-20",
           "localizedDescription": "First iOS release. VoiceOver-first RSS and podcast client: combined Search Feeds and Podcasts (Apple Podcasts and gPodder by name, feed detection for pasted URLs), Podcasting 2.0 chapters, resume playback, persistent play queue, downloads with equalizer and silence skipping, hosted providers (Miniflux, Inoreader, The Old Reader, BazQux), Smart Folders, Filter Rules, and Wayback Podcast Archive.",
-          "downloadURL": "https://github.com/serrebidev/BlindRSS-iOS/releases/download/v0.1.0/BlindRSS-0.1.0-iOS.ipa",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.0/BlindRSS-0.1.0-iOS.ipa",
           "size": 774426,
           "minOSVersion": "17.0"
         }
@@ -502,5 +502,5 @@
       "notify": true
     }
   ],
-  "iconURL": "https://raw.githubusercontent.com/serrebidev/Accessible-IPTV-Client-iOS/main/docs/icon.png"
+  "iconURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/raw/branch/main/docs/icon.png"
 }

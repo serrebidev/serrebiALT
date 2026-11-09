@@ -1,21 +1,26 @@
 """Add an .ipa release to apps.json.
 
     python add_app.py MyApp.ipa --notes "What changed"
-    python add_app.py MyApp.ipa --url https://github.com/serrebidev/MyApp/releases/download/v1.0/MyApp.ipa
+    python add_app.py MyApp.ipa --url https://git.serrebiradio.com/serrebi/MyApp/releases/download/v1.0/MyApp.ipa
 
-Without --url, the .ipa is uploaded to a release in this repo with gh.
+Without --url, the .ipa is uploaded to a release in this repo via the
+Forgejo API. Needs FORGEJO_TOKEN in the environment.
 """
 import argparse
 import datetime
 import json
+import os
 import plistlib
 import re
-import subprocess
+import urllib.error
+import urllib.parse
+import urllib.request
 import zipfile
 from pathlib import Path
 
 SOURCE = Path(__file__).with_name("apps.json")
-REPO = "serrebidev/serrebiALT"
+FORGEJO = "https://git.serrebiradio.com"
+REPO = "serrebi/serrebiALT"
 IMPLICIT_ENTITLEMENTS = {"application-identifier", "com.apple.developer.team-identifier"}
 # A blob never spans another XML header: large binaries carry stray "<?xml" strings.
 PLIST_RE = re.compile(rb"<\?xml(?:(?!<\?xml).)*?</plist>", re.S)
@@ -47,9 +52,59 @@ def read_ipa(ipa):
         return info, sorted(entitlements - IMPLICIT_ENTITLEMENTS)
 
 
+def _api(path, token, data=None, method="GET"):
+    req = urllib.request.Request(
+        f"{FORGEJO}/api/v1/repos/{REPO}{path}",
+        data=json.dumps(data).encode("utf-8") if data is not None else None,
+        headers={"Authorization": f"token {token}", "Content-Type": "application/json"},
+        method=method,
+    )
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read() or b"null")
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"Forgejo API {method} {path} failed: {e.code} {e.read().decode()[:300]}") from e
+
+
+def _get_release(tag, token):
+    try:
+        return _api(f"/releases/tags/{urllib.parse.quote(tag, safe='')}", token)
+    except RuntimeError as e:
+        if " 404 " in str(e):
+            return None
+        raise
+
+
+def _upload_asset(release_id, ipa, token):
+    # Forgejo expects the file in the multipart field named "attachment".
+    boundary = "----serrebiALTipa"
+    body = (
+        f'--{boundary}\r\nContent-Disposition: form-data; name="attachment"; filename="{ipa.name}"\r\n'
+        "Content-Type: application/octet-stream\r\n\r\n"
+    ).encode() + ipa.read_bytes() + f"\r\n--{boundary}--\r\n".encode()
+    req = urllib.request.Request(
+        f"{FORGEJO}/api/v1/repos/{REPO}/releases/{release_id}/assets?name={urllib.parse.quote(ipa.name)}",
+        data=body,
+        headers={"Authorization": f"token {token}", "Content-Type": f"multipart/form-data; boundary={boundary}"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req) as resp:
+            json.loads(resp.read() or b"null")
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"Forgejo asset upload failed: {e.code} {e.read().decode()[:300]}") from e
+
+
 def upload(ipa, tag, notes):
-    subprocess.run(["gh", "release", "create", tag, str(ipa), "-R", REPO, "-t", tag, "-n", notes], check=True)
-    return f"https://github.com/{REPO}/releases/download/{tag}/{ipa.name}"
+    token = os.environ.get("FORGEJO_TOKEN")
+    if not token:
+        raise RuntimeError("FORGEJO_TOKEN is not set")
+    release = _get_release(tag, token)
+    if release is None:
+        release = _api("/releases", token, {"tag_name": tag, "name": tag, "body": notes}, method="POST")
+    if not any(a["name"] == ipa.name for a in release.get("assets", [])):
+        _upload_asset(release["id"], ipa, token)
+    return f"{FORGEJO}/{REPO}/releases/download/{tag}/{ipa.name}"
 
 
 def add(source, ipa, url, notes, today):
@@ -84,7 +139,14 @@ def add(source, ipa, url, notes, today):
     }
     if "MinimumOSVersion" in info:
         version["minOSVersion"] = info["MinimumOSVersion"]
-    app["versions"].insert(0, version)  # first = latest
+    old = next((v for v in app["versions"] if v["version"] == version["version"]), None)
+    if old is not None:
+        # Re-hosting a rebuilt version (e.g. after losing the GitHub assets): replace in place.
+        if not notes:
+            version["localizedDescription"] = old["localizedDescription"]
+        app["versions"][app["versions"].index(old)] = version
+    else:
+        app["versions"].insert(0, version)  # first = latest
     return app
 
 
