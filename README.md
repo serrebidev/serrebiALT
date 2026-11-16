@@ -2,6 +2,12 @@
 
 AltStore source for serrebidev's iOS apps.
 
+[![Join SerrebiProjects on Telegram](https://img.shields.io/badge/Telegram-SerrebiProjects-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/SerrebiProjects)
+
+**Questions, bugs, or release news?** Join the [SerrebiProjects Telegram group](https://t.me/SerrebiProjects), the fastest place to get help.
+
+More serrebi projects: [projects.serrebiradio.com](https://projects.serrebiradio.com)
+
 ## Add the source
 
 In AltStore, open Sources, tap Add, and paste:
@@ -25,3 +31,7 @@ The script copies privacy usage descriptions and entitlements from the `.ipa`.
 AltStore refuses to install an app whose permissions do not match the source.
 
 Format reference: https://faq.altstore.io/developers/make-a-source
+
+## Credits
+
+See [CREDITS.md](CREDITS.md) for where the ideas behind this project came from, and the third-party projects it builds on.
