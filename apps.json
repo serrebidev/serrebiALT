@@ -17,6 +17,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.8.4",
+          "buildVersion": "42",
+          "date": "2026-11-24",
+          "localizedDescription": "Report a problem from Settings, About. Enter a title and description to open a prefilled issue in your browser.",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/Accessible-IPTV-Client-iOS/releases/download/v0.8.4/AccessibleIPTV-0.8.4-iOS.ipa",
+          "size": 27518311,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.8.0",
           "buildVersion": "39",
           "date": "2026-11-09",
