@@ -346,6 +346,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.24",
+          "buildVersion": "24",
+          "date": "2026-11-24",
+          "localizedDescription": "Report a problem from Settings, About. Enter a title and description to open a prefilled issue in your browser.",
+          "downloadURL": "https://git.serrebiradio.com/serrebi/BlindRSS-iOS/releases/download/v0.1.24/BlindRSS-0.1.24-iOS.ipa",
+          "size": 5825244,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.21",
           "buildVersion": "22",
           "date": "2026-11-09",
